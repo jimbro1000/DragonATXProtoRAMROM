@@ -10012,8 +10012,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10062,7 +10066,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10113,8 +10117,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10336,8 +10339,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10386,7 +10393,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10413,8 +10420,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -14987,7 +14993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 165.1 173.99 0)
 			(effects
 				(font
@@ -17090,7 +17096,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 267.97 104.14 0)
+		(at 267.97 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17099,7 +17105,7 @@
 		(dnp no)
 		(uuid "9a2f38b6-f937-4e53-97f0-cc40523bb28d")
 		(property "Reference" "#PWR018"
-			(at 267.97 110.49 0)
+			(at 267.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 267.9701 107.95 90)
+			(at 267.9701 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +17123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 104.14 0)
+			(at 267.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17126,7 +17132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 104.14 0)
+			(at 267.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17135,7 +17141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 104.14 0)
+			(at 267.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
